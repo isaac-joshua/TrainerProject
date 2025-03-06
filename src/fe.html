@@ -10,7 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
-<body>
+<body class="bg-secondary">
     
     <div>
         <h1>Hello, Welcome to my Page</h1>
@@ -23,7 +23,15 @@
             <input type="number" id="number" class="form-control"><br>
             <button type="submit" id="sub" class="btn btn-primary">Submit</button>
         </form>
+        <div id="task1" class="notice">
+            <br>
+            <button id="add" class="btn-primary"> Add task </button>
+            <button id="remove"> Remove task </button>
+        </div>
+        <div class="bg-alert box mb-2" id="addingtasks" >
+        </div>
     </div>
+   
     <script src="/javascript/script.js"></script>
 </body>
 </html>
