@@ -10,5 +10,9 @@ $(document).ready(function() {
     const num=$("#number").val();
     $("#addingtasks div").eq(num).remove();
   });
+  $("#submit").click(function(){
+    const n=$("#name").val();
+    window.location.href = "/user";
+  });
 });
 
